@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin:unset;
+    padding: 2px;
+
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #efe9e9;
+    padding: 10px 0;
+}
+
+header .container {
+    text-align: center;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    background-image: url(CLS.jpg);
+    text-decoration: solid;
+    padding: 50px 20px;
+    
+
+}
+
+.hero h2,p {
+    margin: 0 0 20px;
+    color:aliceblue;
+   
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+}
+
+.section h2 {
+    background-color: burlywood;
+    text-align: center;
+    margin-bottom: 20px;
+    border-color: burlywood;
+}
+.container {
+    background-color:darkcyan;
+
+}
+
+.product-category {
+    margin: 20px 0;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+img{
+    height: 200px;
+    width: 220px;
+    padding: 2pt;
+    justify-content: space-between;
+}
